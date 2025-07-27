@@ -6,7 +6,7 @@ const{ updateCustomer,
   getCustomer,
   getCustomerByid,
   createCustomer
-} = require('../Controller/customer-controller');
+} = require('../controller/customer-controller');
 
 
 router.get('/', getCustomer);
