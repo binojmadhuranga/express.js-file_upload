@@ -8,6 +8,7 @@ const pool = mysql.createPool({
   database: process.env.DB_NAME
 }).promise(); 
 
+
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
